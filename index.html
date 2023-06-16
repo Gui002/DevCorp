@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DevCorp - Homepage</title>
+        <meta charset="UTF-8"/>
+        <style>
+            @import url("codigo\ fonte/css/setup_css/temp.css");
+        </style>
+        <script src="codigo fonte/js/index.js" type="text/javascript"></script>
+        <script type="text/javascript">
+           onload = () => {
+                setInnerSizeInBody();
+                let temporizador = document.getElementsByClassName('time')[0];
+                AtualizarTemporizador(temporizador); 
+           }
+        </script>
+    </head>
+    <body>
+        <header id="main-header">
+            <h1>DevCorp - Homepage [Em densevolvimento]</h1><br>
+           <span class="time"></span>
+        </header>    
+    </body>
+</html>
